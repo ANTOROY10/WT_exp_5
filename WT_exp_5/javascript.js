@@ -72,7 +72,7 @@ function flip() {
     var t = parseInt(tail.innerHTML);
     var lst = ["head.jpeg", "tail.jpeg"];
     var s = Math.floor(Math.random()*2);
-    if (lst[s]==lst[0]) {
+    if (lst[s]==lst[1]) {
         head.innerHTML = h+1;
     } else {
         tail.innerHTML = t+1;
